@@ -8,7 +8,7 @@ import android.view.View;
 public class MainActivity extends Activity implements View.OnClickListener {
 	
 	//Shared Preferences
-	public static final String PREFS_NAME = "RSRToolboxData";	
+	public static final String PREFS_NAME = "MyResume";	
 	SharedPrefs sp = new SharedPrefs();
 	SharedPreferences settings;
 	SharedPreferences.Editor editor;
