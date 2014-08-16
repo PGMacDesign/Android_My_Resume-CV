@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 	
@@ -12,6 +13,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 	SharedPrefs sp = new SharedPrefs();
 	SharedPreferences settings;
 	SharedPreferences.Editor editor;
+	
+	ListView ls;
 	
 	//Main - When the activity starts
 	protected void onCreate(Bundle savedInstanceState) {
